@@ -1,0 +1,68 @@
+@import '../../scss/main';
+
+.message-card {
+    background-color: $color-lightergrey;
+    border-radius: $unit-base;
+    margin-bottom: $unit-8;
+
+    .icon {
+        position: relative;
+
+        svg {
+            font-size: $unit-84;
+            padding: $unit-12;
+            color: $color-darkgrey;
+        }
+
+        .online {
+            display: none;
+            height: $unit-12;
+            width: $unit-12;
+            background-color: $color-green;
+            border-radius: 50%;
+            position: absolute;
+            top: $unit-12;
+            right: $unit-24;
+        }
+    
+        .active {
+            display: block;
+        }
+    }
+
+    .content {
+        margin-top: $unit-20;
+
+        .unread {
+            display: block;
+            height: $unit-16;
+            width: $unit-16;
+            background-color: $color-grey;
+            border-radius: 50%;
+            text-align: center;
+            font-size: $unit-12;
+            color: $color-lightergrey;
+            font-weight: 700;
+        }
+
+        .latest-message {
+            h4 {
+                margin: 0;
+                font-size: $unit-16;
+            }
+
+            p {
+                font-size: $unit-12;
+                color: $color-darkgrey;
+            }
+        }
+    }
+
+    .time {
+        margin-top: $unit-20;
+        text-align: center;
+        font-size: $unit-12 + 2;
+        font-weight: 600;
+        color: $color-darkgrey;
+    }
+}
