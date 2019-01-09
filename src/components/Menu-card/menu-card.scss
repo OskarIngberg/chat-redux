@@ -1,0 +1,33 @@
+@import '../../scss/main';
+
+.menu-card {
+    background-color: $color-white;
+    border-radius: $unit-8;
+
+    .content {
+        padding: $unit-8;
+
+        svg {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-size: $unit-32;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .selected {
+        svg {
+            path {
+                color: $color-blue;
+            }
+        }
+    
+        p {
+            color: $color-blue;
+        }
+    }
+}

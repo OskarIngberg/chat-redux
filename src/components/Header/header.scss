@@ -1,0 +1,12 @@
+@import '../../scss/main';
+
+header {
+    height: $unit-80;
+    background-color: $color-blue;
+
+    .titel {
+        color: $color-white;
+        margin-top: $unit-32;
+        font-size: $unit-24;
+    }
+}

@@ -4,3 +4,8 @@
 // Variables
 @import './variables/units';
 @import './variables/theme';
+@import './variables/fonts';
+
+.container-fluid {
+    padding: 0;
+}
